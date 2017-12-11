@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  font-size: 2em;
+  padding-top: 30px;
+  color: white;
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.buttonclass{
+  margin-top: 10%;
+  background-color: blue;
+  width: 10%;
+  height: 40px;
+  color : white;
+}
+.col {
+  width : 50px;
+  height: 0px;
+  padding: 25px;
+  border-left: 1px solid #afafaf;
+  border-top : 1px solid #afafaf;
+  cursor: pointer;
+}
+.cal-col-0{
+  width:300px;
+  overflow-x: auto;
+  background-color: black;
+  height: 90px;
+  color : white;
+  text-align: right;
+
+}
+.calcLayout{
+  width : 205px;
+  height: 100%;
+  background-color: #d5d5d5;
+  -webkit-box-shadow: 7px -1px 13px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px -1px 13px -4px rgba(0,0,0,0.75);
+  box-shadow: 7px -1px 13px -4px rgba(0,0,0,0.75);
+  margin: auto;
+  color : black;
+  font-size: 1.3em;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.zero{
+    width:102px;
+}
+.operand {
+  background-color: #f68f24;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
